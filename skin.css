@@ -77,6 +77,11 @@
     height: 340px;
 }
 
+.card-r1{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .card-r1 p{
     text-decoration: none;
     font-family: sans-serif;
@@ -85,7 +90,6 @@
     color: #fff;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     position: relative;
     bottom: -10px;
 }
@@ -172,4 +176,16 @@ footer ul li a{
 .footer-link2{
     width: 40%;
     float: right;
+}
+
+@media screen and (max-width:748px){
+    .navbar ul li{
+        display: none;
+    }
+    .title{
+        margin: 0 auto;
+    }
+    .title-2 p{
+        font-size: 30px;
+    }
 }
