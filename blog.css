@@ -169,3 +169,21 @@ footer ul li a{
     background-color: #63BA6D;
     margin: 10px auto;
 }
+
+@media screen and (max-width:748px){
+    .navbar ul li{
+        display: none;
+    }
+    .title{
+        margin: 0 auto;
+    }
+    .title-2 h2{
+        font-size: 40px;
+    }
+    .title-2 p{
+        font-size: 15px;
+    }
+
+
+
+}
